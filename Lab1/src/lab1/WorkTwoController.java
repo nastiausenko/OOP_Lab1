@@ -1,13 +1,15 @@
+package lab1;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import lab1.MainController;
 
 public class WorkTwoController {
 
-    private MainController mainController;    
+    private MainController mainController;
 
     private Stage stage;
 

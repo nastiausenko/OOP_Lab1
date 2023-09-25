@@ -1,3 +1,4 @@
+package lab1;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -10,6 +11,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.stage.Stage;
+import lab1.MainController;
 
 public class WorkOneController implements Initializable {
 

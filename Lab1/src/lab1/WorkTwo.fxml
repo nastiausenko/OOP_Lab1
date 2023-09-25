@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="144.0" prefWidth="277.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WorkTwoController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="144.0" prefWidth="277.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab1.WorkTwoController">
    <children>
       <TextField fx:id="textField" layoutX="13.0" layoutY="47.0" prefHeight="25.0" prefWidth="252.0" promptText="Введіть текст" />
       <Button fx:id="okButton" layoutX="230.0" layoutY="105.0" mnemonicParsing="false" onAction="#setText" text="Так" />
