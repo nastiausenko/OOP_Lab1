@@ -24,7 +24,7 @@ public class MainController {
 
     @FXML
     private void showFormOne(ActionEvent event) throws IOException {
-        FXMLLoader loaderOne = new FXMLLoader(getClass().getResource("workone.fxml"));
+        FXMLLoader loaderOne = new FXMLLoader(getClass().getResource("WorkOne.fxml"));
         Stage stage = new Stage();
         Parent root = loaderOne.load();
         stage.setScene(new Scene(root));
@@ -39,7 +39,7 @@ public class MainController {
 
     @FXML
     private void showFormTwo(ActionEvent event) throws IOException {
-        FXMLLoader loaderTwo = new FXMLLoader(getClass().getResource("worktwo.fxml"));
+        FXMLLoader loaderTwo = new FXMLLoader(getClass().getResource("WorkTwo.fxml"));
         Stage stage = new Stage();
         Parent root = loaderTwo.load();
         stage.setScene(new Scene(root));
