@@ -24,7 +24,7 @@ public class WorkOneController implements Initializable {
     @FXML
     private Button okButton;
 
-    private String[] groups = {"ІМ-21", "ІМ-22", "ІМ-23", "ІМ-24", "ІП-21", "ІП-22", "ІП-23", "ІП-24", "ІП-25", "ІО-21", "ІО-22", "ІО-23", "ІО-24", "ІО-25", "ІО-26"};
+    private static final String[] groups = {"ІМ-21", "ІМ-22", "ІМ-23", "ІМ-24", "ІП-21", "ІП-22", "ІП-23", "ІП-24", "ІП-25", "ІО-21", "ІО-22", "ІО-23", "ІО-24", "ІО-25", "ІО-26"};
     String selectedGroup;
 
     public void setStage(Stage stage){
