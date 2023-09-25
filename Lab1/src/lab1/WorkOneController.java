@@ -2,16 +2,12 @@ package lab1;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.stage.Stage;
-import lab1.MainController;
 
 public class WorkOneController implements Initializable {
 
@@ -50,14 +46,9 @@ public class WorkOneController implements Initializable {
     @Override
     public void initialize(URL arg0, ResourceBundle arg1){
         listView.getItems().addAll(groups);
-        listView.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
-
-            @Override
-            public void changed(ObservableValue<? extends String> arg0, String arg1, String arg2) {
-                selectedGroup = listView.getSelectionModel().getSelectedItem();
-            }
-        });
-        
+        listView.getSelectionModel().selectedItemProperty().addListener(
+                (arg01, arg11, arg2) -> selectedGroup = listView.getSelectionModel().getSelectedItem()
+        );
     }
 
     public void setMainController(MainController mainController){
